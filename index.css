@@ -22,3 +22,55 @@ body{
 table{
     border-radius: 10px;
 }
+
+/*------/ Socials /------*/
+.socials {
+    padding: 1.5rem 0;
+    display: inline-block;
+    
+  }
+  
+  .socials ul li {
+    display: inline-block;
+  }
+  
+  .socials .ico-circle {
+    height: 40px;
+    width: 40px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    line-height: 1.6;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px darkorange;
+    transition: all 500ms ease;
+  }
+  
+  .socials .ico-circle:hover {
+    background-color: darkorange;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+  }
+
+  /*------/ Ico Circle /------*/
+.ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px darkorange;
+    display: block;
+    color: #fff;
+  }
+
+  footer{
+    background-color: #000;
+    /* height: 50px; */
+  }
+
+  .bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+    margin-top:10px ;
+  }
