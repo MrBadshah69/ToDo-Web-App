@@ -1,0 +1,24 @@
+.main-title{
+    text-align: center;
+    font-size: 70px;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+@font-face{
+    font-family: Font;
+    src: url(font/Vogue.ttf);
+}
+
+body{
+    font-family: Font;
+    background-color: darkorange;
+}
+
+table{
+    border-radius: 10px;
+}
